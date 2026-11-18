@@ -45,5 +45,5 @@
 .back{background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:7px 12px;font-size:13px}
 .back:hover{background:#f0f0f4;color:var(--ink)}
 .toolbar-divider{width:1px;height:20px;background:var(--line)}
-.cancel{margin-top:10px;background:#fff;border:1px solid #e5b8b8;color:#c04848;border-radius:9px;padding:7px 12px;font-size:13px}
-.cancel:hover{background:#fdf1f1}
+.send.cancel-send{background:#fff;color:#c04848;border:1px solid #e5b8b8}
+.send.cancel-send:hover{background:#fdf1f1}
