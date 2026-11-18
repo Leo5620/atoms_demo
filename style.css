@@ -24,3 +24,11 @@
 .cl{display:flex}
 .cl .ln{flex:0 0 46px;text-align:right;padding-right:14px;color:#4b5164;user-select:none}
 .cl .ct{flex:1;white-space:pre-wrap;word-break:break-all}
+
+/* ===== 自定义模板按钮 / 关键词高亮编辑器 ===== */
+.custom-row{margin:20px 0}
+.custom-btn{border:1.5px dashed #b9c2f5;background:#f5f7ff;color:#4656d8;border-radius:12px;padding:12px 22px;font-size:14px;font-weight:650}
+.custom-btn:hover{background:#eef1ff;border-color:#8f9bf0}
+.editor{border:0;outline:0;width:100%;min-height:92px;max-height:220px;overflow:auto;color:#30313a;line-height:1.8;word-break:break-word}
+.editor:empty:before{content:attr(data-ph);color:#a0a1ab;pointer-events:none}
+.kw{background:#eef0ff;color:#4656d8;border:1px solid #dfe4ff;border-radius:6px;padding:1px 7px;margin:0 1px;font-size:.92em;font-weight:600}
