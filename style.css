@@ -32,3 +32,11 @@
 .editor{border:0;outline:0;width:100%;min-height:92px;max-height:220px;overflow:auto;color:#30313a;line-height:1.8;word-break:break-word}
 .editor:empty:before{content:attr(data-ph);color:#a0a1ab;pointer-events:none}
 .kw{background:#eef0ff;color:#4656d8;border:1px solid #dfe4ff;border-radius:6px;padding:1px 7px;margin:0 1px;font-size:.92em;font-weight:600}
+
+/* ===== 欢迎页 ===== */
+.welcome{min-height:100vh;display:grid;place-items:center;background:linear-gradient(160deg,#e8f0ff,#fff8dd 55%,#f6f6f8);padding:30px}
+.wcard{text-align:center;max-width:540px}
+.wcard .agents{display:flex;justify-content:center;gap:10px;margin-bottom:6px}
+.wcard h1{font-size:44px;letter-spacing:-2px;margin:26px 0 14px}
+.wsub{color:var(--muted);line-height:1.7;margin:0 0 34px;font-size:15px}
+.wnote{margin-top:22px;font-size:12px;color:#a0a1ab}
